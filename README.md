@@ -10,7 +10,7 @@
 3.  Once installed, the application will be available in your Start Menu and as a Desktop shortcut.
 
 ### Usage
-*   **System Tray**: MouseTrail runs quietly in the background. Look for the orange star icon in your system tray (near the clock).
+*   **System Tray**: MouseTrail runs quietly in the background. Look for the blue cursor icon in your system tray (near the clock).
 *   **Enable/Disable**: Right-click the tray icon to toggle the trails on or off.
 *   **Quit**: Right-click the tray icon and select "Quit" to close the application completely.
 
