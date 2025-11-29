@@ -9,6 +9,8 @@
 2.  Run `MouseTrail Setup 1.0.0.exe` (requires Administrator privileges).
 3.  Once installed, the application will be available in your Start Menu and as a Desktop shortcut.
 
+> **Note**: Since this application is not digitally signed (which costs money), Windows Defender SmartScreen might warn you that it prevented an unrecognized app from starting. This is normal. Click **"More info"** and then **"Run anyway"** to proceed.
+
 ### Usage
 *   **System Tray**: MouseTrail runs quietly in the background. Look for the blue cursor icon in your system tray (near the clock).
 *   **Enable/Disable**: Right-click the tray icon to toggle the trails on or off.
