@@ -132,15 +132,15 @@ function addTrailPoints() {
 
 /**
  * Updates trail ages and removes expired particles
- * Uses reverse iteration for efficient removal
+ * Uses filter for efficient batch removal
  */
 function updateTrails() {
-    for (let i = trails.length - 1; i >= 0; i--) {
-        trails[i].age++;
-        if (trails[i].age > CONFIG.MAX_AGE) {
-            trails.splice(i, 1);
-        }
+    // Increment age for all particles
+    for (const particle of trails) {
+        particle.age++;
     }
+    // Filter out expired particles in a single pass
+    trails = trails.filter(particle => particle.age <= CONFIG.MAX_AGE);
 }
 
 /**

@@ -189,7 +189,7 @@ app.whenReady().then(() => {
         return;
     }
 
-    app.on('second-instance', () => {
+    app.on('second-instance', (event, commandLine, workingDirectory) => {
         dialog.showMessageBox({
             type: 'info',
             title: 'MouseTrail',
